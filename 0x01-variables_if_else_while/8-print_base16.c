@@ -10,16 +10,17 @@
  */
 int main(void)
 {
-	char ch;
-	int n;
+	int d;
+	char low;
 
-	for (n = 48; n <= 57; n++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(n);
+		putchar(d);
 	}
-	for (ch = 'a'; ch <= 'f'; ch++)
+	for (low = 'a'; low <= 'f'; low++)
 	{
-		putchar(ch);
+		putchar(low);
+		putchar('\n');
 	}
 	putchar(10);
 
