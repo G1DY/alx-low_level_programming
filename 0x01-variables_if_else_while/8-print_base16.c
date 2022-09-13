@@ -10,11 +10,6 @@
  */
 int main(void)
 {
-	/**
-	 * hexadecimal
-	 *
-	 * 0123456789abcdef
-	 */
 	char ch;
 	int n;
 
@@ -27,7 +22,6 @@ int main(void)
 		putchar(ch);
 	}
 	putchar(10);
-	putchar('\n');
 
 	return (0);
 }
