@@ -10,20 +10,23 @@
  */
 int main(void)
 {
-	int d;
-	char low;
+	/**
+	 * hexadecimal
+	 *
+	 * 0123456789abcdef
+	 */
+	char ch;
+	int n;
 
-	for (d = '0'; d <= '9'; d++)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(d);
+		putchar(n);
 	}
-	for (low = 'a'; low <= 'f'; low++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(low);
-		putchar('\n');
+		putchar(ch);
 	}
 	putchar(10);
+	putchar('\n')
 
-	return (10);
-}
-
+		return (0);
