@@ -5,20 +5,17 @@
  *
  *  Description: use putchar function
  *
- *  Return: 0
+ *  Return: Always 0 (success)
  *
  */
 int main(void)
 {
-	char d = 'a';
+	char letter;
 
-	while (d <= 'z')
-		putchar (d);
-	{
-		d++;
-	{
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar (letter);
+
 		putchar ('\n');
-	}
+
 		return (0);
-	}
 }
