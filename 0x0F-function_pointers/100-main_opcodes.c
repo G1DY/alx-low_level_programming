@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 	s = atoi(argv[1]);
-	if (s < 2)
+	if (s < 0)
 	{
 		printf("Error\n");
 		exit(2);
