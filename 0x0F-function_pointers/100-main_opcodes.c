@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _opcodes - prints opcodes of its own main fuction
+ * print_opcodes - prints opcodes of its own main fuction
  *  @a: address of the opcodes
  *  @n: size in bytes
  *
  *  Return: void
  */
-int _opcodes(char *a, int n)
+int print_opcodes(char *a, int n)
 {
 	int i;
 
@@ -41,6 +41,6 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(2);
 	}
-	_opcodes((char *)&main, n);
+	print_opcodes((char *)&main, n);
 	return (0);
 }
