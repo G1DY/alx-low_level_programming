@@ -1,6 +1,6 @@
 # Doubly linked lists
 > Resources
-[](https://intranet.alxswe.com/rltoken/C5_IRM981SVn8oA8RP3gag)
+[] (https://intranet.alxswe.com/rltoken/C5_IRM981SVn8oA8RP3gag)
 
 ## Learning Objectives
 > At the end of this project, you are expected to be able to explain to anyone, without the help of Google
