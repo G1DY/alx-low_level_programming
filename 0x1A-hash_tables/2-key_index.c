@@ -4,7 +4,7 @@
  *
  * @key: is the key
  * @size: size of the array
- * Description: uses hash_djb2 function 
+ * Description: uses hash_djb2 function
  * Return: Key index
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
