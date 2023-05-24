@@ -17,7 +17,7 @@ What are the most common / useful rules
 What are variables and how to set and use them
 
 **Files**
-In the following tasks, we are going to use these files. We want to compile these only.
+In the following tasks, we are going to use these [files](https://github.com/holbertonschool/0x1B.c). We want to compile these only.
 ~~~
 | Tasks | Description |
 | ----- | ----------- |
