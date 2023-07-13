@@ -9,8 +9,7 @@
  */
 int interpolation_search(int *array, size_t size, int value)
 {
-	size_t pos;
-	double f;
+	size_t pos, l, h;
 
 	l = 0;
 	h = size - 1;
